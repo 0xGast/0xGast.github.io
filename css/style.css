@@ -10,11 +10,11 @@
 }
 
 :root {
-    --bg-color: #101010;
-    --second-bg-color: #191919;
-    --text-color: #fff;
+    --bg-color: #090b0f;
+    --second-bg-color: #2c3649;
+    --text-color: #ccc;
     --second-color: #ccd6dd;
-    --main-color: #657786;
+    --main-color: #2c3649;
     --big-font: 5.3rem;
     --h2-font: 4.2rem;
     --p-font: 1.1rem;
@@ -306,7 +306,7 @@ header.sticky {
 .contact-me {
     width: 100%;
     height: 290px;
-    background: #191919;
+    background: #090b0f;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -321,7 +321,7 @@ header.sticky {
 }
 
 .contact-me .button-two {
-    background-color: #26262d;
+    background-color: #2c3649;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -332,9 +332,13 @@ header.sticky {
 }
 
 .contact-me .button-two:hover {
-    background-color: transparent;
-    border: 2px solid #26262d;
+    background-color: #090b0f;
+    border: 2px solid #090b0f;
     cursor: pointer;
+}
+
+#contact{
+    background-color: #090b0f;
 }
 
 footer {
@@ -373,7 +377,7 @@ footer p:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #26262d;
+    background: #2c3649;
     border-radius: 50%;
     margin: 22px 10px;
     color: white;
@@ -388,7 +392,7 @@ footer p:nth-child(2) {
 
 .end {
     position: absolute;
-    color: #26262d;
+    color: #2c3649;
     bottom: 35px;
     font-size: 14px;
 }
